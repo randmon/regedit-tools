@@ -1,0 +1,2 @@
+backup-registry/backups/*
+!backup-registry/backups/.gitkeep

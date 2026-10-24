@@ -4,16 +4,13 @@ This repo contains small Windows registry snippets that add shortcut actions to 
 
 ## What is included
 
+- `backup-registry/` — contains a PowerShell script to export the full registry.
 - `open-with-intellij/` — adds an `Open with IntelliJ` option to folder context menus.
 - `open-with-claude/` — adds an `Open with Claude` option to folder context menus.
 - `open-with-rider/` — adds an `Open with Rider` option to folder context menus.
 
-Each folder contains both:
 
-- a regular folder entry (right-click a directory)
-- a background entry (right-click empty space inside a folder)
-
-## How to use it
+## How to use
 
 1. Open the `.reg` file you want to use.
 2. Replace the placeholder paths with your real install locations. Don't forget to escape backslashes in the paths (e.g., `C:\\Program Files\\...`).

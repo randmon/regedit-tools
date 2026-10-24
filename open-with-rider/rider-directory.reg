@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\shell\Rider]
 @="Open with Rider"
-"Icon"="C:\\PATH-TO-RIDER\\bin\\rider64.exe"
+"Icon"="C:\\PATH-TO-RIDER-EXE"
 
 [HKEY_CLASSES_ROOT\Directory\shell\Rider\command]
-@="\"C:\\PATH-TO-RIDER\\bin\\rider64.exe\" \"%V\""
+@="C:\\PATH-TO-RIDER-EXE" "%V"
