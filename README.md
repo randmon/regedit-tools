@@ -6,6 +6,7 @@ This repo contains small Windows registry snippets that add shortcut actions to 
 
 - `open-with-intellij/` — adds an `Open with IntelliJ` option to folder context menus.
 - `open-with-claude/` — adds an `Open with Claude` option to folder context menus.
+- `open-with-rider/` — adds an `Open with Rider` option to folder context menus.
 
 Each folder contains both:
 
